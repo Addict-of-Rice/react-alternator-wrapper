@@ -12,10 +12,10 @@ npm i react-alternator-wrapper
 ## Props
 
 | Prop           | Type           | Description                                                               |
-| -------------- | -------------- | ------------------------------------------------------------------------- |
-| targetFC     | FC<T>        | The React component type whose children will have their props overridden. |
-| propOverride | Partial<T>[] | Array of prop objects to apply to the children in repeating order.        |
-| children     | ReactNode    | The child elements that may include instances of targetFC.              |
+| -------------- | -------------- | ------------------------------------------------------------------------ |
+| targetFC     | FC&lt;T&gt;        | the React component type whose children will have their props overridden |
+| propOverride | Partial&lt;T&gt;[] | array of prop objects to apply to the children in repeating order        |
+| children     | ReactNode    | the child elements that may include instances of targetFC              |
 
 ## Example
 
