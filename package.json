@@ -1,6 +1,6 @@
 {
   "name": "react-alternator-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Wrapper component which allows specific child objects to have their props overridden in order.",
   "main": "dist/index.js",
   "scripts": {

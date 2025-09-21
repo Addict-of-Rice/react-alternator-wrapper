@@ -13,9 +13,9 @@ npm i react-alternator-wrapper
 
 | Prop           | Type           | Description                                                               |
 | -------------- | -------------- | ------------------------------------------------------------------------- |
-| `targetFC`     | `FC<T>`        | The React component type whose children will have their props overridden. |
-| `propOverride` | `Partial<T>[]` | Array of prop objects to apply to the children in repeating order.        |
-| `children`     | `ReactNode`    | The child elements that may include instances of `targetFC`.              |
+| targetFC     | FC<T>        | The React component type whose children will have their props overridden. |
+| propOverride | Partial<T>[] | Array of prop objects to apply to the children in repeating order.        |
+| children     | ReactNode    | The child elements that may include instances of targetFC.              |
 
 ## Example
 
@@ -77,5 +77,5 @@ export const Example: FC = () => {
 ## Notes
 
 - `AlternatorWrapper` only overrides props of children that match the `targetFC` component.
-- If there are more children than `propOverride` entries, the overrides **cycle through the array repeatedly**.
+- If there are more children than `propOverride` entries, the overrides cycle through the array repeatedly.
 - Non-target children are rendered unchanged.
